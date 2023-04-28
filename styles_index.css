@@ -1,0 +1,65 @@
+@import url(./colors.css);
+
+body  {
+    margin:0; padding: 0;
+    /* background-image: url("./assets/bluegreyorange.jpg"); */
+} 
+
+/* Top Section */
+.navbar {
+    position: fixed;  /* stay visible when scrolled */
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: var(--main-grey);
+}
+
+.navbar a{
+    display: inline-block;
+    font-size: 23px;
+    color: white;
+    text-align: center;
+    padding: 20px;  /* 3vh 2vw */
+    text-decoration: none;
+}
+
+.navbar li a:hover:not(.active) {
+    background-color: #111;
+}
+  
+.active {
+    background-color: var(--main-gamboge);
+}
+
+
+/* Middle Section */
+.content{
+    height: 100vh;
+    padding:30px 50px;
+    /* background-color: var(--main-greyblue); */
+    background-image: url(./assets/starry_sky.jpg); background-size: cover;
+    /* background: linear-gradient(225deg, var(--main-indigo), var(--main-greyblue)); */
+}
+.content h1 {margin-top: 30vh; text-align: center;}
+.content p {
+    width: 70%; text-align: center;
+    margin-left: auto; margin-right: auto;  /* put the text block in center */
+    font-size: 30px; color: rgb(15, 55, 95);
+    
+}
+.content p:hover{
+    color: rgb(15, 55, 95);
+    text-shadow: 5px 0 10px rgb(250, 255, 245);
+}
+
+.divider{
+    position: relative;
+}
+
+/* Bottom Section */
+.footer{
+    padding:5px 5px;
+    background-color: var(--main-gamboge);
+}

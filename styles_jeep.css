@@ -1,0 +1,93 @@
+@import url(./colors.css);
+
+body {
+    /* width: 90%; */ padding: 0; margin-top: 0;
+    margin-left: auto; margin-right: auto;  /* center the content */
+    background-color: var(--main-mojave);
+}
+
+/* header section */
+.navbar {
+    position: fixed;  /* stay visible when scrolled */
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: var(--main-grey);
+}
+
+.navbar a{
+    display: inline-block;
+    font-size: 23px;
+    color: white;
+    text-align: center;
+    padding: 20px;  /* 3vh 2vw */
+    text-decoration: none;
+}
+
+.navbar li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: var(--main-gamboge);
+}
+
+/* main section: content */
+.content{
+    width: 90%; padding-top: 80px;  /* make room for the navbar */
+    margin: auto;
+
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+}
+
+figure {
+    shape-rendering: auto;
+    display: inline-block;
+    text-align: center;     /* centering the image and caption within the figure element */
+}
+
+figure img {box-shadow: 3px 3px 10px rgb(50, 50, 50); border-radius: 2px;}
+.bottom_img {box-shadow: 0px 5px 10px rgb(50, 50, 50);}
+
+figcaption {text-shadow: 3px 3px -10px rgb(50, 50, 50);}
+
+.illustration_center {
+    text-align: center;
+}
+
+.illustration_center table {
+    margin-left: auto; margin-right: auto;  /* centering the table */
+}
+
+table th {
+    background-color: lightslategrey;
+}
+
+blockquote {
+    display: block;
+    width: 60%;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: auto; margin-right: auto;
+    line-height: 6vh;
+    color: var(--main-grey);
+    /* text-shadow: 5px 5px 10px rgb(50, 50, 50); */
+}
+
+.bottom_img {
+    width: 100%; height: auto;
+}
+
+.footer {
+    display: flex; 
+    justify-content: space-between;
+    width: 90%; 
+    margin: auto;
+}

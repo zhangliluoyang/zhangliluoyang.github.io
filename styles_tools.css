@@ -1,0 +1,133 @@
+@import url(./colors.css);
+
+body{margin:0; padding:0; 
+    background-color: rgb(10, 11, 11);
+}
+
+/* header section */
+.navbar {
+    position: fixed;  /* stay visible when scrolled */
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: var(--main-grey);
+    z-index: 5;  /* stay on the top-layer, otherwise the calculator may overlap when scrolled */
+}
+
+.navbar a{
+    display: inline-block;
+    font-size: 23px;
+    color: white;
+    text-align: center;
+    padding: 20px;  /* 3vh 2vw */
+    text-decoration: none;
+}
+
+.navbar li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: var(--main-gamboge);
+}
+
+
+/* Main section: tools */
+.tools{padding-top: 80px;   /* make room for the navbar */
+    width: 90%;
+    margin: auto;
+}  
+
+/* world clock */
+#timeTable td{text-align: center;}
+#countryName{height:100px; color: var(--main-platinum); padding-top: 50px;}
+#times{
+    height: 90px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px; padding: 10px;
+}
+#dayMonth{
+    height: 90px;
+    font-size: 20px;
+    font-style: italic;
+    color: var(--main-platinum);
+}
+
+/* Google search */
+#googleSearch{display: flex;}
+#googleSearch form{margin: auto;}
+#googleSearch form #searchbox{
+    border: 1px solid var(--main-platinum);
+    border-radius: 5px;
+    font-size: 20px; padding: 5px 10px 5px 10px;
+    color: chartreuse;
+    width:350px; background-color: transparent;
+}
+#googleSearch form button{
+    border: 1px solid var(--main-gamboge);
+    border-radius: 3px;
+    font-size: 20px; padding: 5px 10px 5px 10px;
+    background-color: var(--main-gamboge);
+}
+
+/* Calculator */
+#cal {
+    height: 600px;
+    display: flex;
+    align-items: center;    /* align vertically on the y axis */
+    justify-content: center; 
+}   
+
+.calculator {
+    border: 2px solid rgb(113, 108, 108);
+    margin: 50px;
+    padding: 35px 25px; 
+    background: black;
+    border-radius: 8px;
+    box-shadow: 0 0 15px #47476b;
+}
+
+/* Screen */
+#outputScreen {
+    width: 321px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: #47476b solid 2px;
+    border-radius: 3px;
+    font-size: 29px;
+    color: white;
+    text-align: right;
+    box-shadow: inset 0 0 10px #47476b;
+  }
+
+  /* Buttons */
+.calculator input{
+    height: 65px;
+    width: 80px;
+    color: white;
+    outline: 0;
+    border: none;
+    border-radius: 1px;
+    background: var(--main-greyblue);
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    margin: 1px -1px 1px 0px;
+}
+
+input:hover {
+    color: black;
+    outline: 1px solid grey;
+}
+
+#cal .number {
+    background-color: var(--main-bluegrey);
+}
+
+.footer{
+    height: 60px;
+    border-top: #47476b solid;
+}
+

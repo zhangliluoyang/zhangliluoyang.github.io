@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tools</title>
+        <script src="https://kit.fontawesome.com/e31dbcbff5.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./styles_tools.css" />
+        <!-- <script type="module" src="./googleMap.js"></script> -->
+    </head>
+
+    
+    <body>
+        <!-- navigation bar -->
+		<section class="header">
+            <ul class="navbar">
+                <li><a href="index.html" >HOME</a></li>
+                <li><a href="reading.html" background-color="">Reading</a></li>
+                <li><a href="jeep.html">Jeep</a></li>
+                <li><a href="travel.html">Travel</a></li>
+                <li><a href="tools.html" class="active">Tools</a></li>
+            </ul>
+        </section>
+
+        <!-- TOOLS -->
+        <section class="tools">
+
+        <!-- world clock -->
+        <div id="worldClock">
+            <table id="timeTable" style="width:100%">
+                <tr id="countryName">
+                    <!-- th elements are centered by default -->
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <!-- contents of td elements are centered with 'text-align: center' -->
+                <tr id="times">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr id="dayMonth">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+            <script type="text/javascript" src="world_clock.js">
+            </script>
+            </div>
+        
+            <!-- Calculator -->
+            <div id="cal">
+                <div class="calculator">
+                    <div class="display">
+                        <input type="text" id="outputScreen">
+                    </div>
+                    <div>
+                        <input type="button" id="clear" style="background-color: rgb(227, 108, 20);" value="AC" onclick="outputScreen.value='' ">
+                        <input type="button" id="delete" style="background-color: rgb(227, 108, 20);" value="Del" onclick="outputScreen.value=outputScreen.value.slice(0, -1)">
+                        <input type="button" value="√" onclick="outputScreen.value = Math.sqrt(eval(outputScreen.value))">
+                        <input type="button" value="/" onclick="outputScreen.value += '/' ">
+                    </div>
+                    <div>
+                        <input class='number' type="button" value="7" onclick="outputScreen.value += '7' ">
+                        <input class='number' type="button" value="8" onclick="outputScreen.value += '8' ">
+                        <input class='number' type="button" value="9" onclick="outputScreen.value += '9' ">
+                        <input type="button" value="*" onclick="outputScreen.value += '*' ">
+                    </div>
+                    <div>
+                        <input class='number' type="button" value="4" onclick="outputScreen.value += '4' ">
+                        <input class='number' type="button" value="5" onclick="outputScreen.value += '5' ">
+                        <input class='number' type="button" value="6" onclick="outputScreen.value += '6' ">
+                        <input type="button" value="-" onclick="outputScreen.value += '-' ">
+                    </div>
+                    <div>
+                        <input class='number' type="button" value="1" onclick="outputScreen.value += value ">
+                        <input class='number' type="button" value="2" onclick="outputScreen.value += value ">
+                        <input class='number' type="button" value="3" onclick="outputScreen.value += value ">
+                        <input type="button" value="+" onclick="outputScreen.value += value ">
+                    </div>
+                    <div>
+                        <input class='number' type="button" value="0" onclick="outputScreen.value += value">
+                        <input class='number' type="button" value="00" onclick="outputScreen.value += value">
+                        <input class='number' type="button" value="." onclick="outputScreen.value += '.' ">
+                        <input type="button" value="=" onclick="outputScreen.value = eval(outputScreen.value)">
+                    </div>                   
+                </div>
+            </div>
+
+            <!-- Google Search -->
+            <div id="googleSearch" style="height: 200px;">
+            <!-- 'method': Specifies the HTTP method to use when sending form-data -->
+            <!-- 'action': Specifies where to send the form-data when a form is submitted -->
+            <form method="GET" action="https://www.Google.com/search" target="_blank">
+                <input id="searchbox" type="text" name="q">
+                <button type="submit">Google Search</button>
+            </form>
+        </div>
+
+        <!-- FOOTER -->
+        <section class="footer">
+
+        </section>
+    </body>
+</html>

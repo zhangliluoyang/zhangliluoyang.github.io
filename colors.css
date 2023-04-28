@@ -1,0 +1,19 @@
+/* use custom properties */
+:root {
+    --main-white: #f0f0f0;
+    --main-platinum: rgb(228, 230, 229);
+    /* orange */
+    --main-gamboge:rgb(232, 150, 17);
+    --main-metallic: rgb(227, 108, 20);
+    /* blue */
+    --main-blue: #45567d;
+    --main-indigo: rgb(34, 54, 92);
+    --main-greyblue: rgb(25, 50, 80);
+    --main-denim: rgb(28, 78, 170);
+    /* grey */
+    --main-grey: #333;
+    --main-bluegrey: rgb(54,69,79); 
+    --main-granite: rgb(102, 102, 103);
+    --main-lightgrey: rgb(170, 150, 150);
+    --main-mojave: rgb(199, 181, 150);
+    }

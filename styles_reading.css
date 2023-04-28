@@ -1,0 +1,53 @@
+@import url(./colors.css);
+
+body{margin:0; padding:0; 
+    background-color: var(--main-bluegrey);
+}
+
+/* header section */
+.navbar {
+    position: fixed;  /* stay visible when scrolled */
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: var(--main-grey);
+}
+
+.navbar a{
+    display: inline-block;
+    font-size: 23px;
+    color: white;
+    text-align: center;
+    padding: 20px;  /* 3vh 2vw */
+    text-decoration: none;
+}
+
+.navbar li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: var(--main-gamboge);
+}
+
+
+/* Main section: quotes and reads */
+#quotes{padding-top: 80px;}  /* make room for the navbar */
+#quotes #quote-container{
+    text-align: center;
+    font-size: 20px;
+    border-bottom: var(--main-bluegrey) dashed 2px;
+    height: 200px;
+}
+
+
+/* Google search */
+#GoogleSearch form{margin: auto;}
+#GoogleSearch form input{font-size: 20px; padding: 5px 10px 5px 10px;}
+#GoogleSearch form #searchbox{
+    width:350px; background-color: var(--main-greyblue);
+}
+
+

@@ -1,0 +1,56 @@
+@import url(./colors.css);
+
+body{margin:0; padding:0; 
+    background-color: var(--main-bluegrey);
+    /* background-image: url(./assets/night_sky.jpg); background-size: cover; */
+}
+
+/* header section */
+.navbar {
+    position: fixed;  /* stay visible when scrolled */
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: var(--main-grey);
+}
+
+.navbar a{
+    display: inline-block;
+    font-size: 23px;
+    color: white;
+    text-align: center;
+    padding: 20px;  /* 3vh 2vw */
+    text-decoration: none;
+}
+
+.navbar li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: var(--main-gamboge);
+}
+
+
+/* Main section: tools */
+.maps{
+    padding-top: 80px;      /* make room for the navbar */
+    display: block;
+}
+.maps #introduction{
+    text-align: center;
+    margin: auto auto auto auto;
+    font-size: 22px;
+    color: var(--main-platinum);
+}  
+
+.maps #travelMap{
+    width: 70%;   /* the percentage is used to position the map */
+    margin: auto auto 20px auto; /* center the map */
+    }
+
+.footer{
+    height: 10px;
+}
