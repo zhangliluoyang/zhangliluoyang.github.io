@@ -51,6 +51,7 @@ body{margin:0; padding:0;
     background-color:var(--main-grey);
     color: var(--main-platinum);
     border-radius: 5px;
+    display: absolute;
     margin-bottom: 5px;
 }
 
