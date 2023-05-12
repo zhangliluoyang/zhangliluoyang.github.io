@@ -35,7 +35,8 @@ body{margin:0; padding:0;
 
 
 /* Main section: tools */
-.tools{padding-top: 80px;   /* make room for the navbar */
+.tools{
+    padding-top: 80px;   /* make room for the navbar */
     width: 90%;
     margin: auto;
 }  
@@ -55,34 +56,67 @@ body{margin:0; padding:0;
     color: var(--main-platinum);
 }
 
-/* Google search */
-#googleSearch{display: flex;}
-#googleSearch form{margin: auto;}
-#googleSearch form #searchbox{
-    border: 1px solid var(--main-platinum);
-    border-radius: 5px;
-    font-size: 20px; padding: 5px 10px 5px 10px;
-    color: chartreuse;
-    width:350px; background-color: transparent;
-}
-#googleSearch form button{
-    border: 1px solid var(--main-gamboge);
-    border-radius: 3px;
-    font-size: 20px; padding: 5px 10px 5px 10px;
-    background-color: var(--main-gamboge);
-}
-
-/* Calculator */
-#cal {
+/* Converter - Calculator */
+#big_container {
     height: 600px;
     display: flex;
     align-items: center;    /* align vertically on the y axis */
-    justify-content: center; 
-}   
+    justify-content: space-around;
+    /* border: red 1px solid; */
+}
 
-.calculator {
+/* conversion tables */
+#conversion_container{
+    width: 45%; 
+    margin: auto; 
+    color: var(--main-platinum);
+    font-size: large;
     border: 2px solid rgb(113, 108, 108);
-    margin: 50px;
+    border-radius: 3px;
+    box-shadow: inset 0 0 10px #47476b;
+    /* box-shadow: inset 0 0 15px #47476b; */
+}
+#conversion_containter, p{
+    text-align: center;
+}
+
+.buttons{
+    width: 100%;
+    /* spread out the buttons*/
+    display: flex;
+    justify-content: space-around;
+}
+.buttons button{
+    color: antiquewhite;
+    padding: 3px 5px;
+    width: 120px;
+    background-color: var(--main-greyblue);
+    border-radius: 5px;
+}
+#table_container{
+    width: 100%;
+    height: 185px;
+    /* border: 1px solid white; */
+}
+#conversionTable{
+    width: 100%;
+    color: green;
+    text-align: right;
+    padding: 15px 10px 5px 2px;
+    /* border: 1px solid white; */
+}
+
+
+/* Calculator */
+#calulator_container{
+    width: 45%;
+    display: flex; justify-content: center;
+    /* border: orange 1px solid; */
+}
+.calculator {
+    width: 330px;
+    border: 2px solid rgb(113, 108, 108);
+    margin: 50px 0 50px 0;
     padding: 35px 25px; 
     background: black;
     border-radius: 8px;
@@ -125,6 +159,24 @@ input:hover {
 #cal .number {
     background-color: var(--main-bluegrey);
 }
+
+/* Google search */
+#googleSearch{display: flex;}
+#googleSearch form{margin: auto;}
+#googleSearch form #searchbox{
+    border: 1px solid var(--main-platinum);
+    border-radius: 5px;
+    font-size: 20px; padding: 5px 10px 5px 10px;
+    color: chartreuse;
+    width:350px; background-color: transparent;
+}
+#googleSearch form button{
+    border: 1px solid var(--main-gamboge);
+    border-radius: 3px;
+    font-size: 20px; padding: 5px 10px 5px 10px;
+    background-color: var(--main-gamboge);
+}
+
 
 .footer{
     height: 60px;

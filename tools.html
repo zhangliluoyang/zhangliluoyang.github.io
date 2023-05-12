@@ -6,7 +6,7 @@
         <title>Tools</title>
         <script src="https://kit.fontawesome.com/e31dbcbff5.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="./styles_tools.css" />
-        <!-- <script type="module" src="./googleMap.js"></script> -->
+        
     </head>
 
     
@@ -54,10 +54,31 @@
             </table>
             <script type="text/javascript" src="world_clock.js">
             </script>
+        </div>
+            
+
+        <!-- Conversion and Calculator -->
+        <div id="big_container" style="width: 100%">
+            <!-- Conversion tables in Toggleable Tabs-->
+            <div id="conversion_container">
+                <p>Click buttons for Conversion Tables</p>
+                <div class="buttons">
+                    <button class="tablinks" id='len' onclick="showTable(lenArray)">Length</button>
+                    <button class="tablinks" id='vol' onclick="showTable(volArray)">Volumn</button>
+                    <button class="tablinks" id="area" onclick="showTable(areaArray)">Area</button>
+                    <button class="tablinks" id="wgt" onclick="showTable(wgtArray)">Weight</button>
+                </div> 
+            <!-- table -->
+                <script type="text/javascript" src="conv_tables.js"></script>
+                <div id="table_container">
+                    <table id="conversionTable">
+                        
+                    </table>
+                </div>
             </div>
-        
-            <!-- Calculator -->
-            <div id="cal">
+
+            <!-- calculator -->
+            <div id="calulator_container">
                 <div class="calculator">
                     <div class="display">
                         <input type="text" id="outputScreen">
@@ -93,21 +114,22 @@
                         <input type="button" value="=" onclick="outputScreen.value = eval(outputScreen.value)">
                     </div>                   
                 </div>
-            </div>
+            </div>    
+        </div>
 
             <!-- Google Search -->
-            <div id="googleSearch" style="height: 200px;">
+            <div id="googleSearch" style="height: 200px; width: 100%;">
             <!-- 'method': Specifies the HTTP method to use when sending form-data -->
             <!-- 'action': Specifies where to send the form-data when a form is submitted -->
-            <form method="GET" action="https://www.Google.com/search" target="_blank">
-                <input id="searchbox" type="text" name="q">
-                <button type="submit">Google Search</button>
-            </form>
-        </div>
+                <form method="GET" action="https://www.Google.com/search" target="_blank">
+                    <input id="searchbox" type="text" name="q">
+                    <button type="submit">Google Search</button>
+                </form>
+            </div>
+        </section>
 
         <!-- FOOTER -->
         <section class="footer">
-
         </section>
     </body>
 </html>
