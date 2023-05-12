@@ -46,7 +46,7 @@ body{margin:0; padding:0;
     color: var(--main-platinum);
     height: 200px;
 }
-#quote-container #quote{height: 120px;}
+#quote-container #quote{height: 80px;}
 
 #quote-container button {
     font-size: 15px;
