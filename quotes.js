@@ -8,7 +8,7 @@
   const newthoughtBtn = document.getElementById("new-quote-btn");
   
   // Function to generate a random thought
-function generatethought() {
+function generatequote() {
     // Load the thoughts from the JSON file
     fetch("quotes.json")
       .then(response => response.json())
@@ -26,9 +26,9 @@ function generatethought() {
   
   
   // Add a click event listener to the new thought button
-  newthoughtBtn.addEventListener("click", generatethought);
+  newthoughtBtn.addEventListener("click", generatequote);
   
   // Generate a thought when the page loads
-  generatethought();
+  generatequote();
 
 
