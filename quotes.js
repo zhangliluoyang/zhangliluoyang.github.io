@@ -5,12 +5,12 @@
   const sourceElement = document.getElementById("source");
   
   // Get the new thought button element
-  const newthoughtBtn = document.getElementById("new-thought-btn");
+  const newthoughtBtn = document.getElementById("new-quote-btn");
   
   // Function to generate a random thought
 function generatethought() {
     // Load the thoughts from the JSON file
-    fetch("thoughts.json")
+    fetch("quotes.json")
       .then(response => response.json())
       .then(data => {
         // Get a random thought from the thoughts array

@@ -33,26 +33,27 @@ body{margin:0; padding:0;
 }
 
 
-/* Main section: quotes and reads */
+/* Main section: thoughts and reads */
 #quotes{
-    width: 70%;
+    width: 70%; 
     margin: auto; 
     /* make room for the navbar */
     padding-top: 100px;
 }  
-#quotes #quote-container{
+#quote-container{
     text-align: center;
     font-size: 25px;
     color: var(--main-platinum);
     height: 200px;
 }
+#quote-container #quote{height: 120px;}
+
 #quote-container button {
     font-size: 15px;
-    padding: 5px;
     background-color:var(--main-grey);
     color: var(--main-platinum);
+    padding: 5px;
     border-radius: 5px;
-    display: absolute;
     margin-bottom: 5px;
 }
 
