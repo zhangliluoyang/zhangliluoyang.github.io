@@ -1,11 +1,5 @@
 [
   {
-    "time": "2022-01-01 13:07:53 Saturday",
-    "quote": "Wisdom, humility, caution, moderation, justice, mercy, discretion, constancy, benevolence, chastity and temperance. With these anchors you should fix in God the cable so that it will hold the ship of your mind.",
-    "author": "St. Augustine\u2019s Soliloquies",
-    "word count": 27
-  },
-  {
     "time": "2022-04-17 13:52:14 Sunday",
     "quote": "'You know, all the problems in my life, just a story I've created.'\n 'Hm, yeah.'",
     "author": "The Good Journey (2018)",
@@ -60,12 +54,6 @@
     "word count": 8
   },
   {
-    "time": "2022-10-05 11:31:30 Wednesday",
-    "quote": "perseverence, consistency",
-    "author": "all",
-    "word count": 2
-  },
-  {
     "time": "2022-10-05 17:56:20 Wednesday",
     "quote": "Rise but seldom\u2014let this be on important matters\u2014and then make yourself thoroughly acquainted with the subject.",
     "author": "George Washington",
@@ -96,15 +84,33 @@
     "word count": 11
   },
   {
-    "time": "2022-10-06 23:02:35 Thursday",
-    "quote": "Let me die in the country that I love the most ...",
-    "author": "Colter Wall, Plain-to-see Plainsman",
-    "word count": 12
-  },
-  {
     "time": "2022-10-10 12:31:37 Monday",
     "quote": "Of course it's the same old story. Truth usually is the same old story.",
     "author": "Margaret Thatcher",
     "word count": 14
+  },
+  {
+    "time": "2023-04-28 22:05:16",
+    "thought": "Adopt the pace of nature; her secret is patience.",
+    "source": "Ralph Waldo Emerson",
+    "word count": 9
+  },
+  {
+    "time": "2023-04-28 22:05:16",
+    "thought": "Adopt the pace of nature; her secret is patience.",
+    "source": "Ralph Waldo Emerson",
+    "word count": 9
+  },
+  {
+    "time": "2023-04-28 22:10:12",
+    "thought": "The spirit of envy can destroy; it can never build.",
+    "source": "Margaret Thatcher",
+    "word count": 10
+  },
+  {
+    "time": "2023-05-5 23:02:50",
+    "thought": "Don't be too eager to deal out death and judgment. Even the very wise cannot see all ends.",
+    "source": "Lord of Rings I",
+    "word count": 18
   }
 ]
