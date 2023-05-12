@@ -43,16 +43,21 @@ body  {
     /* background: linear-gradient(225deg, var(--main-indigo), var(--main-greyblue)); */
 }
 .content h1 {
+    width: 50%;
+    margin-left: auto; margin-right: auto;  /* put the text block in center */
     margin-top: 30vh; text-align: center; 
     font-size: 55px; 
     color: var(--main-platinum);
-    opacity: 0.5;
+    color:black;
+    opacity: 0.6;
 }
+.content h1:hover{opacity: 1;}
 .content p {
     width: 70%; text-align: center;
     margin-left: auto; margin-right: auto;  /* put the text block in center */
-    font-size: 30px; color: rgb(15, 55, 95);
-    opacity: 0.5;
+    font-size: 30px; 
+    color: rgb(15, 55, 95);
+    opacity: 0.1;
 }
 .content p:hover{
     color: rgb(15, 55, 95);
@@ -61,7 +66,9 @@ body  {
 }
 
 .divider{
-    position: relative;
+    opacity: 0.7; 
+    /* height: 1px; */
+    /* border: solid 1px ; */
 }
 
 /* Bottom Section */
