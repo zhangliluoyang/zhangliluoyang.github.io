@@ -18,7 +18,7 @@ function generatequote() {
         const randomquote = data[randomIndex];
         
         // Update the thought and source elements with the new thought
-        thoughtElement.textContent = `"${randomquote.thought}"`;
+        quoteElement.textContent = `"${randomquote.thought}"`;
         sourceElement.textContent = `- ${randomquote.source}`;
       })
       .catch(error => console.log(error));
