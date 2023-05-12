@@ -5,7 +5,7 @@
   const sourceElement = document.getElementById("source");
   
   // Get the new thought button element
-  const newthoughtBtn = document.getElementById("new-quote-btn");
+  const newquoteBtn = document.getElementById("new-quote-btn");
   
   // Function to generate a random thought
 function generatequote() {
@@ -26,7 +26,7 @@ function generatequote() {
   
   
   // Add a click event listener to the new thought button
-  newthoughtBtn.addEventListener("click", generatequote);
+  newquoteBtn.addEventListener("click", generatequote);
   
   // Generate a thought when the page loads
   generatequote();
