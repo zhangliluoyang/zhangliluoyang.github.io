@@ -9,13 +9,13 @@
     "time": "2022-04-30 13:18:57 Saturday",
     "quote": "The most important part is you take action and start doing whatever is in front of you.\n I take a step forward, and stuff starts running at me.",
     "source": "Unemployed to Jr. Software Developer at 45 (YouTube)",
-    "word count": 65
+    "word count": 28
   },
   {
     "time": "2022-09-13 12:47:45 Tuesday",
-    "quote": "Natural stresses shape people into functioning human beings; man-made stresses served to weaken a man and make him ill. One resembles strength; the other resembles weakness.",
+    "quote": "Natural stresses shape people into functioning human beings; man-made stresses served to weaken a man and make him ill.",
     "source": "unknown",
-    "word count": 53
+    "word count": 19
   },
   {
     "time": "2022-09-26 11:41:45",
@@ -42,12 +42,6 @@
     "word count": 6
   },
   {
-    "time": "2022-10-02 22:43:04",
-    "quote": "discipline",
-    "source": "all",
-    "word count": 1
-  },
-  {
     "time": "2022-10-05 11:15:02",
     "quote": "Speech is of Time, Silence is of Eternity.",
     "source": "Sartor Resartus, 1831",
@@ -64,12 +58,6 @@
     "quote": "Never be agitated by more than a decent warmth, & offer your sentiments with modest diffidence.",
     "source": "George Washington",
     "word count": 16
-  },
-  {
-    "time": "2022-10-06 20:55:35 Thursday",
-    "quote": "Prayers, progress, patience.",
-    "source": "Moral Philosophy twitter",
-    "word count": 3
   },
   {
     "time": "2022-10-06 21:17:06 Thursday",
@@ -118,5 +106,29 @@
     "quote": "In the midst of all this chaos, the aristocratic spirit stands serene, and in a very deep sense, untroubled.",
     "source": "Hanford Henderson",
     "word count": 20
+  },
+  {
+    "time": "2023-05-13 19:58:08 Saturday",
+    "thought": "Work is love made visible.",
+    "source": "Kahlil Gibran",
+    "word count": 5
+  },
+  {
+    "time": "2023-05-14 20:47:52 Sunday",
+    "thought": "... salvation is an individual adventure and not a mass movement.",
+    "source": "Hanford Henderson",
+    "word count": 11
+  },
+  {
+    "time": "2023-05-14 21:33:00 Sunday",
+    "thought": "I often regret that I have spoken; never that I have been silent.",
+    "source": "Publilius Syrus",
+    "word count": 13
+  },
+  {
+    "time": "2023-05-14 21:47:59 Sunday",
+    "thought": "You see, in the final analysis, it is all between you and God; \r\nIt was never between you and them anyway.",
+    "source": "Kent M. Keith",
+    "word count": 21
   }
 ]
